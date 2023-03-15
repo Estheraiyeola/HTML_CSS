@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('download.jpeg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    border-bottom: 3px solid blueviolet;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    background: none;
+    margin-right: 105px;
+    margin-top: 50px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rows {
+    position: absolute;
+    left: 33%;
+}
+.row {
+    position: relative;
+}
+.row input {
+    position: relative;
+    left: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    background: none;
+    border: 0px;
+    font-weight: bold;
+    border-bottom: 3px solid blueviolet;
+    font-family: "Baloo Bhai 2", cursive;
+}
+.row i {
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+}
+.button {
+    width: 4rem;
+    border-radius: 15px;
+    background: none;
+    margin-right: 10px;
+    background-color: rgb(76, 30, 77);
+    color: blanchedalmond;
+    outline: none;
+    font-family: "Baloo Bhai 2", cursive;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: blueviolet;
+    color: azure;
+}
